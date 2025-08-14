@@ -169,6 +169,32 @@ p {
   margin-bottom: var(--space-sm);
 }
 
+/* Clickable Scholar Name Link */
+.scholar-name-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  position: relative;
+  display: inline-block;
+}
+
+.scholar-name-link:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.scholar-name-link:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-sm);
+}
+
+/* Prevent the summary from triggering when clicking the name link */
+.scholar-name-link:active,
+.scholar-name-link:focus {
+  z-index: 10;
+}
+
 .biography-short {
   color: var(--color-text-secondary);
   font-size: var(--font-size-base);

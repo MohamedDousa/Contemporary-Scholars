@@ -1,0 +1,390 @@
+/* Biography Page Specific Styles */
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+  margin-bottom: var(--space-xl);
+  padding: var(--space-md) 0;
+}
+
+.breadcrumb-link {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-normal);
+}
+
+.breadcrumb-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 var(--space-sm);
+  color: var(--color-text-muted);
+}
+
+.breadcrumb-current {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Scholar Header */
+.scholar-header {
+  background: linear-gradient(135deg, var(--color-background-alt) 0%, var(--color-background) 100%);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-3xl) var(--space-2xl);
+  margin-bottom: var(--space-4xl);
+  border: 1px solid var(--color-border);
+}
+
+.scholar-meta {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.scholar-name {
+  font-size: var(--font-size-4xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-lg);
+  line-height: var(--line-height-tight);
+}
+
+.scholar-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.scholar-year {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--border-radius-md);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-lg);
+}
+
+.scholar-century {
+  background-color: var(--color-background);
+  color: var(--color-text-muted);
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  font-size: var(--font-size-base);
+}
+
+.scholar-subtitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Biography Content Layout */
+.biography-content {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--space-4xl);
+  align-items: start;
+}
+
+.biography-article {
+  max-width: none;
+}
+
+.biography-section {
+  margin-bottom: var(--space-3xl);
+}
+
+.biography-section h2 {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  font-size: var(--font-size-2xl);
+}
+
+.biography-section h3 {
+  color: var(--color-primary-light);
+  margin: var(--space-xl) 0 var(--space-lg) 0;
+  font-size: var(--font-size-xl);
+}
+
+.biography-section p {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-lg);
+  color: var(--color-text-secondary);
+}
+
+/* Works List */
+.works-list {
+  list-style: none;
+  padding: 0;
+}
+
+.works-list li {
+  background-color: var(--color-background-alt);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--border-radius-md);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-md);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  position: relative;
+  padding-left: var(--space-2xl);
+}
+
+.works-list li::before {
+  content: '📖';
+  position: absolute;
+  left: var(--space-lg);
+  top: var(--space-lg);
+}
+
+/* Sidebar */
+.biography-sidebar {
+  position: sticky;
+  top: var(--space-xl);
+}
+
+.sidebar-section {
+  background-color: var(--color-background-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.sidebar-section h3 {
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border-light);
+  padding-bottom: var(--space-sm);
+}
+
+/* Facts List */
+.facts-list {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.facts-list dt {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.facts-list dd {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.facts-list dd:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Related Scholars */
+.related-scholars {
+  list-style: none;
+  padding: 0;
+}
+
+.related-scholars li {
+  margin-bottom: var(--space-sm);
+}
+
+.related-scholars a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  transition: color var(--transition-normal);
+  display: block;
+  padding: var(--space-xs) 0;
+}
+
+.related-scholars a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* Back Link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-normal);
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--border-radius-md);
+}
+
+.back-link:hover {
+  background-color: var(--color-secondary);
+  color: white;
+  transform: translateX(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .biography-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+  
+  .biography-sidebar {
+    position: static;
+    order: -1;
+  }
+  
+  .sidebar-section {
+    margin-bottom: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .scholar-header {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+  
+  .scholar-name {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .scholar-details {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  
+  .biography-section h2 {
+    font-size: var(--font-size-xl);
+  }
+  
+  .biography-section p {
+    font-size: var(--font-size-base);
+  }
+  
+  .sidebar-section {
+    padding: var(--space-lg);
+  }
+}
+
+/* Tazkiyah Documents Section */
+.scholar-image-section {
+  text-align: center;
+  margin-top: var(--space-4xl);
+  padding-top: var(--space-2xl);
+  border-top: 2px solid var(--color-border);
+}
+
+.scholar-image-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.scholar-image {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 3px solid var(--color-border);
+  transition: all var(--transition-normal);
+  cursor: zoom-in;
+}
+
+.scholar-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.15);
+}
+
+.image-caption {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-top: var(--space-lg);
+  margin-bottom: 0;
+}
+
+.image-upload-placeholder {
+  background-color: var(--color-background-alt);
+  border: 2px dashed var(--color-secondary);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-3xl) var(--space-xl);
+  margin-top: var(--space-xl);
+  color: var(--color-text-muted);
+  font-style: italic;
+  position: relative;
+}
+
+.image-upload-placeholder::before {
+  content: '📄';
+  font-size: var(--font-size-3xl);
+  display: block;
+  margin-bottom: var(--space-lg);
+}
+
+.image-upload-placeholder p {
+  margin: 0;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Hide image when no source is provided */
+.scholar-image[src="[TAZKIYAH_IMAGE_URL]"],
+.scholar-image[src=""] {
+  display: none;
+}
+
+/* Show placeholder when no image */
+.scholar-image[src="[TAZKIYAH_IMAGE_URL]"] + .image-caption + .image-upload-placeholder,
+.scholar-image[src=""] + .image-caption + .image-upload-placeholder {
+  display: block;
+}
+
+/* Hide placeholder when image exists */
+.scholar-image:not([src="[TAZKIYAH_IMAGE_URL]"]):not([src=""]) + .image-caption + .image-upload-placeholder {
+  display: none;
+}
+
+/* Print Styles */
+@media print {
+  .breadcrumb,
+  .biography-sidebar {
+    display: none;
+  }
+  
+  .biography-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .scholar-header {
+    background: none;
+    border: none;
+    padding: var(--space-lg) 0;
+  }
+  
+  .biography-section {
+    break-inside: avoid;
+  }
+  
+  .image-upload-placeholder {
+    display: none;
+  }
+}
