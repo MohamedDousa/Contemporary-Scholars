@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A memorial website showcasing contemporary figures who have passed away, organized by decade with detailed biographies.">
-    <title>Historical Figures - Contemporary Icons We've Lost</title>
+    <meta name="description" content="A memorial website showcasing contemporary scholars who have passed away, organized by Islamic Hijri centuries with detailed biographies.">
+    <title>Contemporary scholars</title>
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
@@ -21,163 +21,398 @@
     <!-- Header -->
     <header class="site-header" role="banner">
         <div class="container">
-            <h1 class="site-title">Contemporary Icons We've Lost</h1>
+            <h1 class="site-title">Contemporary scholars</h1>
             <p class="site-description">
-                A memorial to the remarkable individuals who shaped our world and left us too soon. 
-                Click on any name to read their full story and legacy.
+                Click on any name to read their story and legacy.
             </p>
+            
+            <!-- Search Section -->
+            <div class="search-section">
+                <div class="search-container">
+                    <label for="scholar-search" class="search-label">Search Scholars:</label>
+                    <input 
+                        type="text" 
+                        id="scholar-search" 
+                        class="search-input" 
+                        placeholder="Search by name, year (e.g., 1420H), or century..."
+                        aria-describedby="search-help"
+                    >
+                    <button type="button" id="clear-search" class="clear-search-btn" aria-label="Clear search">
+                        ✕
+                    </button>
+                </div>
+                <div id="search-help" class="search-help">
+                    <p>Search examples: "Ibn Baaz", "1420H", "1400-1500", or "Uthaymeen"</p>
+                </div>
+                <div id="search-results" class="search-results" role="status" aria-live="polite">
+                    <!-- Search results summary will appear here -->
+                </div>
+            </div>
         </div>
     </header>
     
     <!-- Main Content -->
     <main id="main-content" class="main-content" role="main">
         <div class="container">
-            <!-- 2010s Decade -->
-            <section class="decade-section" aria-labelledby="decade-2010s">
-                <h2 id="decade-2010s" class="decade-title">2010s</h2>
+            <!-- 1400s AH Century -->
+            <section class="century-section" aria-labelledby="century-1400s">
+                <h2 id="century-1400s" class="century-title">1400-1500 AH</h2>
                 <div class="biography-grid" role="list">
-                    <!-- David Bowie -->
+                    <!-- Shaykh Zayd bin Muhammad bin Haadee al-Madkhale -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">David Bowie</h3>
-                                <p class="biography-short">English singer-songwriter and actor</p>
-                                <span class="biography-year" aria-label="Year of death">2016</span>
+                                <h3 class="biography-name">Shaykh Zayd bin Muhammad bin Haadee al-Madkhale</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1435H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    David Robert Jones (1947-2016), known professionally as David Bowie, was an English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music. During his lifetime, his record sales, estimated at over 100 million records worldwide, made him one of the best-selling music artists of all time. In the UK, he was awarded ten platinum, eleven gold, and eight silver album certifications, and released 11 number-one albums. In the US, he received five platinum and nine gold certifications. He was inducted into the Rock and Roll Hall of Fame in 1996. Rolling Stone magazine ranked him among the greatest artists in history, and following his death in 2016, he was ranked as the top rock star in a list of the greatest rock stars since that magazine began in 1967.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Art</span>
-                                    <span class="biography-tag">Innovation</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Prince -->
+                    <!-- Shaykh 'Abdullah al-Ghudayyaan -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Prince</h3>
-                                <p class="biography-short">American singer, songwriter, musician, and record producer</p>
-                                <span class="biography-year" aria-label="Year of death">2016</span>
+                                <h3 class="biography-name">Shaykh 'Abdullah al-Ghudayyaan</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1431H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Prince Rogers Nelson (1958-2016) was an American singer, songwriter, musician, record producer, dancer, actor, and filmmaker. A guitar virtuoso and multi-instrumentalist known for his eclectic work, flamboyant stage presence, extravagant fashion sense, and use of makeup, he is widely regarded as one of the greatest musicians of his generation. His music incorporated a wide variety of styles, including funk, R&B, rock, new wave, soul, synth-pop, pop, jazz, and hip hop. Prince produced his albums himself, pioneering the Minneapolis sound. He was also a prolific songwriter for other artists. Born and raised in Minneapolis, Minnesota, Prince developed an interest in music as a young child and wrote his first song, 'Funk Machine', at the age of seven. He signed a recording contract with Warner Bros. Records at the age of 19, and released his debut album 'For You' in 1978. His 1979 album 'Prince' went platinum, and his next three records—'Dirty Mind' (1980), 'Controversy' (1981), and '1999' (1982)—continued his success, showcasing his prominently sexual lyrics and blending of funk, dance, and rock music.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Innovation</span>
-                                    <span class="biography-tag">Artistry</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- George Michael -->
+                    <!-- Shaykh Muhammad bin 'Abdul-Wahhaab al-Banna -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">George Michael</h3>
-                                <p class="biography-short">English singer, songwriter, and record producer</p>
-                                <span class="biography-year" aria-label="Year of death">2016</span>
+                                <h3 class="biography-name">Shaykh Muhammad bin 'Abdul-Wahhaab al-Banna</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1430H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Georgios Kyriacos Panayiotou (1963-2016), known professionally as George Michael, was an English singer, songwriter, and record producer. He is considered one of the most significant cultural icons of the MTV generation and is one of the best-selling music artists of all time, with sales of over 120 million records worldwide. Michael rose to fame as a member of the music duo Wham! and later embarked on a solo career. At the age of 19, Michael formed the duo Wham! with his school friend Andrew Ridgeley. The duo achieved massive commercial success with hit singles including 'Young Guns (Go for It!)', 'Bad Boys', 'Club Tropicana', 'Wake Me Up Before You Go-Go', 'Last Christmas', 'Everything She Wants', 'I'm Your Man', and 'The Edge of Heaven', as well as albums 'Fantastic' (1983) and 'Make It Big' (1984). Michael embarked on a solo career in 1987 with the release of 'Faith', which won the Grammy Award for Album of the Year in 1989. Three of the singles from the album—'Faith', 'Father Figure', and 'One More Try'—reached number one on the Billboard Hot 100.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Pop Culture</span>
-                                    <span class="biography-tag">LGBTQ</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Maya Angelou -->
+                    <!-- Shaykh Ahmad bin Yahyaa an-Najmee -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Maya Angelou</h3>
-                                <p class="biography-short">American poet, memoirist, and civil rights activist</p>
-                                <span class="biography-year" aria-label="Year of death">2014</span>
+                                <h3 class="biography-name">Shaykh Ahmad bin Yahyaa an-Najmee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1429H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Maya Angelou (1928-2014) was an American poet, memoirist, and civil rights activist. She published seven autobiographies, three books of essays, several books of poetry, and is credited with a list of plays, movies, and television shows spanning over 50 years. She received dozens of awards and more than 50 honorary degrees. Angelou is best known for her series of seven autobiographies, which focus on her childhood and early adult experiences. The first, 'I Know Why the Caged Bird Sings' (1969), tells of her life up to the age of 17 and brought her international recognition and acclaim. She became a poet and writer after a series of occupations as a young adult, including fry cook, sex worker, nightclub dancer and performer, cast member of the opera 'Porgy and Bess', coordinator for the Southern Christian Leadership Conference, and journalist in Egypt and Ghana during the decolonization of Africa. She was an active participant in the Civil Rights Movement and worked with Martin Luther King Jr. and Malcolm X.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Literature</span>
-                                    <span class="biography-tag">Civil Rights</span>
-                                    <span class="biography-tag">Poetry</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Robin Williams -->
+                    <!-- Shaykh Bakr Abu Zayd -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Robin Williams</h3>
-                                <p class="biography-short">American actor and comedian</p>
-                                <span class="biography-year" aria-label="Year of death">2014</span>
+                                <h3 class="biography-name">Shaykh Bakr Abu Zayd</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1429H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Robin McLaurin Williams (1951-2014) was an American actor and comedian. Known for his improvisational skills and the wide variety of characters he created on the spur of the moment and portrayed on film, in dramas and comedies alike, he is regarded as one of the greatest comedians of all time. He received numerous accolades, including an Academy Award, two Primetime Emmy Awards, six Golden Globe Awards, two Screen Actors Guild Awards, and five Grammy Awards. Williams began performing stand-up comedy in San Francisco and Los Angeles during the mid-1970s, and rose to fame playing the alien Mork in the sitcom 'Mork & Mindy' (1978–1982). After his film debut in 'Popeye' (1980), he starred in numerous critically acclaimed and popular films, including 'Good Morning, Vietnam' (1987), 'Dead Poets Society' (1989), 'Awakenings' (1990), 'The Fisher King' (1991), 'Aladdin' (1992), 'Mrs. Doubtfire' (1993), and 'Good Will Hunting' (1997), for which he won the Academy Award for Best Supporting Actor.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Entertainment</span>
-                                    <span class="biography-tag">Comedy</span>
-                                    <span class="biography-tag">Film</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Nelson Mandela -->
+                    <!-- Shaykh Muqbil bin Haadee al-Waadi'ee -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Nelson Mandela</h3>
-                                <p class="biography-short">South African anti-apartheid revolutionary and political leader</p>
-                                <span class="biography-year" aria-label="Year of death">2013</span>
+                                <h3 class="biography-name">Shaykh Muqbil bin Haadee al-Waadi'ee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1422H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Nelson Rolihlahla Mandela (1918-2013) was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by tackling institutionalised racism and fostering racial reconciliation. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997. A Xhosa, Mandela was born into the Thembu royal family in Mvezo, British South Africa. He studied law at the University of Fort Hare and the University of the Witwatersrand before working as a lawyer in Johannesburg. There he became involved in anti-colonial and African nationalist politics, joining the ANC in 1943 and co-founding its Youth League in 1944. After the National Party's white-only government established apartheid, a system of racial segregation that privileged whites, he and the ANC committed themselves to its overthrow.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Politics</span>
-                                    <span class="biography-tag">Civil Rights</span>
-                                    <span class="biography-tag">Activism</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Steve Jobs -->
+                    <!-- Shaykh Muhammad bin Saalih al-'Uthaymeen -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Steve Jobs</h3>
-                                <p class="biography-short">American business magnate and co-founder of Apple Inc.</p>
-                                <span class="biography-year" aria-label="Year of death">2011</span>
+                                <h3 class="biography-name">Shaykh Muhammad bin Saalih al-'Uthaymeen</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1421H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Steven Paul Jobs (1955-2011) was an American business magnate, industrial designer, investor, and media proprietor. He was the co-founder, chairman, and CEO of Apple; the chairman and majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak. Jobs was born in San Francisco to a Syrian political science professor and a graduate student who gave him up for adoption. He was raised in the San Francisco Bay Area. He attended Reed College in 1972 before withdrawing that same year, and traveled through India in 1974 seeking enlightenment and studying Zen Buddhism. In 1976, he co-founded Apple with Steve Wozniak to sell Wozniak's Apple I personal computer. Together the duo gained fame and wealth a year later with the Apple II, one of the first highly successful mass-produced microcomputers.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Technology</span>
-                                    <span class="biography-tag">Business</span>
-                                    <span class="biography-tag">Innovation</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Muhammad Naasiruddeen al-Albaanee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Muhammad Naasiruddeen al-Albaanee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1420H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh 'Abdul-'Azeez bin 'Abdullah bin Baaz -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh 'Abdul-'Azeez bin 'Abdullah bin Baaz</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1420H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Hammaad bin Muhammad al-Ansaaree -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Hammaad bin Muhammad al-Ansaaree</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1418H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Badee' ud-Deen as-Sindhee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Badee' ud-Deen as-Sindhee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1416H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Muhammad Amaan al-Jaamee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Muhammad Amaan al-Jaamee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1416H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh 'Abdur-Razzaaq al-'Afeefee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh 'Abdur-Razzaaq al-'Afeefee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1415H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Hamood bin 'Abdullah at-Tuwayjiree -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Hamood bin 'Abdullah at-Tuwayjiree</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1413H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Muhammad Taqee ud-Deen al-Hilali -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Muhammad Taqee ud-Deen al-Hilali</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1408H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Ehsaan Elaahi Zaheer -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Ehsaan Elaahi Zaheer</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1407H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Muhammad Khaleel Harras -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Muhammad Khaleel Harras</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1395H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Muhammad al-Ameen ash-Shanqeetee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Muhammad al-Ameen ash-Shanqeetee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1393H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
@@ -185,47 +420,125 @@
                 </div>
             </section>
             
-            <!-- 2000s Decade -->
-            <section class="decade-section" aria-labelledby="decade-2000s">
-                <h2 id="decade-2000s" class="decade-title">2000s</h2>
+            <!-- 1300s AH Century -->
+            <section class="century-section" aria-labelledby="century-1300s">
+                <h2 id="century-1300s" class="century-title">1300-1400 AH</h2>
                 <div class="biography-grid" role="list">
-                    <!-- Michael Jackson -->
+                    <!-- Shaykh Muhammad bin Ibraaheem Aal ash-Shaykh -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Michael Jackson</h3>
-                                <p class="biography-short">American singer, songwriter, and dancer</p>
-                                <span class="biography-year" aria-label="Year of death">2009</span>
+                                <h3 class="biography-name">Shaykh Muhammad bin Ibraaheem Aal ash-Shaykh</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1389H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    Michael Joseph Jackson (1958-2009) was an American singer, songwriter, and dancer. Dubbed the 'King of Pop', he is regarded as one of the most significant cultural figures of the 20th century. Over a four-decade career, his contributions to music, dance, and fashion, along with his publicized personal life, made him a global figure in popular culture. Jackson influenced artists across many music genres; through stage and video performances, he popularized complicated dance moves such as the moonwalk, to which he gave the name, as well as the robot. He is the most awarded music artist in history. The eighth child of the Jackson family, Michael made his professional debut in 1964 with his elder brothers Jackie, Tito, Jermaine, and Marlon as a member of the Jackson 5 (later known as the Jacksons). Jackson began his solo career in 1971 while at Motown Records, and rose to solo stardom with his fifth studio album 'Off the Wall' (1979). His music videos, including those for 'Beat It', 'Billie Jean', and 'Thriller' from his 1982 album 'Thriller', are credited with breaking racial barriers and transforming the medium into an artform and promotional tool.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Entertainment</span>
-                                    <span class="biography-tag">Dance</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
                     </article>
                     
-                    <!-- Johnny Cash -->
+                    <!-- Shaykh 'Abdullaah bin Muhammad Al-Qar'aawee -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Johnny Cash</h3>
-                                <p class="biography-short">American singer, songwriter, and actor</p>
-                                <span class="biography-year" aria-label="Year of death">2003</span>
+                                <h3 class="biography-name">Shaykh 'Abdullaah bin Muhammad Al-Qar'aawee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1389H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
-                                    John R. Cash (1932-2003) was an American singer, songwriter, musician, and actor. Much of Cash's music contained themes of sorrow, moral tribulation, and redemption, especially in the later stages of his career. He was known for his deep, calm bass-baritone voice, the distinctive sound of his Tennessee Three backing band characterized by train-like chugging guitar rhythms, a rebelliousness coupled with an increasingly somber and humble demeanor, free prison concerts, and a trademark all-black stage wardrobe which earned him the nickname the 'Man in Black'. Born to poor cotton farmers in Kingsland, Arkansas, Cash rose to fame during the mid-1950s in the burgeoning rockabilly scene in Memphis, Tennessee, after serving four years in the United States Air Force. Cash was first discovered by Sam Phillips, the founder of Sun Records, after approaching Phillips wanting to record gospel music. Phillips was not interested in gospel and suggested Cash come back with some secular music. Cash returned with 'Hey Porter', and Phillips immediately saw his potential.
+                                    Biography details to be added later.
                                 </p>
                                 <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Country</span>
-                                    <span class="biography-tag">Culture</span>
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh 'Abdur-Rahmaan bin Yahyaa bin 'Alee al-Mu'allimee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh 'Abdur-Rahmaan bin Yahyaa bin 'Alee al-Mu'allimee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1386H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Ahmad bin Muhammad Shaakir -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Ahmad bin Muhammad Shaakir</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1377H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh Haafidh ibn Ahmed 'Alee al-Hakamee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh Haafidh ibn Ahmed 'Alee al-Hakamee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1377H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
+                                </div>
+                            </div>
+                        </details>
+                    </article>
+                    
+                    <!-- Shaykh 'Abdur-Rahmaan bin Naasir as-Sa'dee -->
+                    <article class="biography-card" role="listitem">
+                        <details class="biography-details">
+                            <summary class="biography-summary" role="button" aria-expanded="false">
+                                <h3 class="biography-name">Shaykh 'Abdur-Rahmaan bin Naasir as-Sa'dee</h3>
+                                <p class="biography-short">Islamic Scholar</p>
+                                <span class="biography-year" aria-label="Year of death">1376H</span>
+                            </summary>
+                            <div class="biography-content">
+                                <p class="biography-full">
+                                    Biography details to be added later.
+                                </p>
+                                <div class="biography-tags">
+                                    <span class="biography-tag">Islamic Studies</span>
+                                    <span class="biography-tag">Scholar</span>
                                 </div>
                             </div>
                         </details>
@@ -233,30 +546,107 @@
                 </div>
             </section>
             
-            <!-- 1990s Decade -->
-            <section class="decade-section" aria-labelledby="decade-1990s">
-                <h2 id="decade-1990s" class="decade-title">1990s</h2>
+            <!-- 1200s AH Century -->
+            <section class="century-section" aria-labelledby="century-1200s">
+                <h2 id="century-1200s" class="century-title">1200-1300 AH</h2>
                 <div class="biography-grid" role="list">
-                    <!-- Kurt Cobain -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Kurt Cobain</h3>
-                                <p class="biography-short">American singer, songwriter, and musician</p>
-                                <span class="biography-year" aria-label="Year of death">1994</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Kurt Donald Cobain (1967-1994) was an American singer, songwriter, and musician who was the lead vocalist, guitarist, and primary songwriter of the rock band Nirvana. Through his angst-fueled songwriting and anti-establishment persona, Cobain came to be regarded as the spokesman of Generation X and is considered one of the most influential musicians in the history of alternative rock. He was heralded as a spokesman of Generation X and is considered one of the most influential musicians in the history of alternative rock. Born in Aberdeen, Washington, Cobain formed the band Nirvana with Krist Novoselic and Aaron Burckhard in 1987 and established it as part of the Seattle music scene which later became known as grunge. After signing with major label DGC Records, Nirvana found global success with 'Smells Like Teen Spirit' from their critically acclaimed second album 'Nevermind' (1991). Although Cobain was hailed as the voice of his generation following Nirvana's sudden success, he resented the attention and placed his focus on the band's music, believing the band's message and artistic vision to be more important than his celebrity status.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Music</span>
-                                    <span class="biography-tag">Grunge</span>
-                                    <span class="biography-tag">Generation X</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 1100s AH Century -->
+            <section class="century-section" aria-labelledby="century-1100s">
+                <h2 id="century-1100s" class="century-title">1100-1200 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 1000s AH Century -->
+            <section class="century-section" aria-labelledby="century-1000s">
+                <h2 id="century-1000s" class="century-title">1000-1100 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 900s AH Century -->
+            <section class="century-section" aria-labelledby="century-900s">
+                <h2 id="century-900s" class="century-title">900-1000 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 800s AH Century -->
+            <section class="century-section" aria-labelledby="century-800s">
+                <h2 id="century-800s" class="century-title">800-900 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 700s AH Century -->
+            <section class="century-section" aria-labelledby="century-700s">
+                <h2 id="century-700s" class="century-title">700-800 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 600s AH Century -->
+            <section class="century-section" aria-labelledby="century-600s">
+                <h2 id="century-600s" class="century-title">600-700 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 500s AH Century -->
+            <section class="century-section" aria-labelledby="century-500s">
+                <h2 id="century-500s" class="century-title">500-600 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 400s AH Century -->
+            <section class="century-section" aria-labelledby="century-400s">
+                <h2 id="century-400s" class="century-title">400-500 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 300s AH Century -->
+            <section class="century-section" aria-labelledby="century-300s">
+                <h2 id="century-300s" class="century-title">300-400 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 200s AH Century -->
+            <section class="century-section" aria-labelledby="century-200s">
+                <h2 id="century-200s" class="century-title">200-300 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 100s AH Century -->
+            <section class="century-section" aria-labelledby="century-100s">
+                <h2 id="century-100s" class="century-title">100-200 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
+                </div>
+            </section>
+            
+            <!-- 0s AH Century -->
+            <section class="century-section" aria-labelledby="century-0s">
+                <h2 id="century-0s" class="century-title">0-100 AH</h2>
+                <div class="biography-grid" role="list">
+                    <!-- Biography entries will be added here -->
                 </div>
             </section>
         </div>
@@ -266,7 +656,7 @@
     <footer class="site-footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Contemporary Icons We've Lost. A tribute to those who shaped our world.</p>
+                <p>&copy; 2024 Contemporary Scholars. A tribute to those who shaped our world.</p>
                 <p>Built with accessibility and remembrance in mind.</p>
             </div>
         </div>
@@ -274,5 +664,6 @@
     
     <!-- Optional: JavaScript for enhanced functionality -->
     <script src="js/accordion.js" defer></script>
+    <script src="js/search.js" defer></script>
 </body>
 </html>

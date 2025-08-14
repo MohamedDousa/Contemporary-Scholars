@@ -19,6 +19,17 @@
   --color-focus: #005fcc;
   --color-hover: #ecf0f1;
   
+  /* Status colors */
+  --color-success: #27ae60;
+  --color-success-rgb: 39, 174, 96;
+  --color-warning: #f39c12;
+  --color-warning-rgb: 243, 156, 18;
+  --color-error: #e74c3c;
+  --color-error-rgb: 231, 76, 60;
+  
+  /* Primary RGB for rgba usage */
+  --color-primary-rgb: 44, 62, 80;
+  
   /* Typography */
   --font-family-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-family-heading: Georgia, 'Times New Roman', serif;

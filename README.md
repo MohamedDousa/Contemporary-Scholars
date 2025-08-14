@@ -1,6 +1,6 @@
 # Contemporary Scholars
 
-A memorial website showcasing contemporary Islamic scholars who have passed away, organized by Islamic Hijri centuries with detailed biographies. 
+A memorial website showcasing contemporary Islamic scholars who have passed away, organized by Islamic Hijri centuries with detailed biographies. Built with accessibility, performance, and maintainability in mind.
 
 ## 🌟 Features
 
