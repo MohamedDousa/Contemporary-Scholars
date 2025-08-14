@@ -1,0 +1,337 @@
+/* Main Styles for Historical Figures Website */
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-lg);
+}
+
+h1 {
+  font-size: var(--font-size-4xl);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+  color: var(--color-primary-light);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+p {
+  margin-bottom: var(--space-lg);
+  color: var(--color-text-secondary);
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: var(--border-radius-sm);
+  z-index: 1000;
+  font-weight: var(--font-weight-semibold);
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Layout */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* Header */
+.site-header {
+  background-color: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-2xl) 0;
+  margin-bottom: var(--space-4xl);
+}
+
+.site-title {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.site-description {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+  margin-bottom: var(--space-4xl);
+}
+
+/* Decade Sections */
+.decade-section {
+  margin-bottom: var(--space-4xl);
+}
+
+.decade-title {
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  position: relative;
+}
+
+.decade-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-secondary);
+}
+
+/* Biography Grid */
+.biography-grid {
+  display: grid;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .biography-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* Biography Cards */
+.biography-card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.biography-card:hover {
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Biography Details (Native HTML details/summary) */
+.biography-details {
+  width: 100%;
+}
+
+.biography-summary {
+  padding: var(--space-xl);
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  transition: background-color var(--transition-fast);
+}
+
+.biography-summary:hover {
+  background-color: var(--color-hover);
+}
+
+.biography-summary:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: -2px;
+}
+
+.biography-name {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.biography-short {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
+
+.biography-year {
+  position: absolute;
+  top: var(--space-lg);
+  right: var(--space-xl);
+  background-color: var(--color-background-alt);
+  color: var(--color-text-muted);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Expand/Collapse Indicator */
+.biography-summary::after {
+  content: '▼';
+  position: absolute;
+  bottom: var(--space-lg);
+  right: var(--space-xl);
+  color: var(--color-secondary);
+  font-size: var(--font-size-sm);
+  transition: transform var(--transition-normal);
+}
+
+.biography-details[open] .biography-summary::after {
+  transform: rotate(180deg);
+}
+
+/* Biography Content */
+.biography-content {
+  padding: 0 var(--space-xl) var(--space-xl);
+  border-top: 1px solid var(--color-border-light);
+  background-color: var(--color-background-alt);
+  animation: slideDown var(--transition-normal) ease-out;
+}
+
+.biography-full {
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  font-size: var(--font-size-base);
+}
+
+/* Biography Tags */
+.biography-tags {
+  margin-top: var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.biography-tag {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--color-background-alt);
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-2xl) 0;
+  margin-top: var(--space-4xl);
+}
+
+.footer-content {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .site-header {
+    padding: var(--space-xl) 0;
+  }
+  
+  .site-title {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .decade-title {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .biography-summary {
+    padding: var(--space-lg);
+  }
+  
+  .biography-content {
+    padding: 0 var(--space-lg) var(--space-lg);
+  }
+  
+  .biography-year {
+    position: static;
+    display: inline-block;
+    margin-top: var(--space-sm);
+  }
+  
+  .biography-summary::after {
+    bottom: var(--space-sm);
+    right: var(--space-lg);
+  }
+}
+
+/* Print Styles */
+@media print {
+  .biography-details {
+    break-inside: avoid;
+  }
+  
+  .biography-summary::after {
+    display: none;
+  }
+  
+  .biography-content {
+    display: block !important;
+    animation: none;
+  }
+  
+  .skip-link {
+    display: none;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  :root {
+    --color-border: #000000;
+    --color-text-secondary: #000000;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
