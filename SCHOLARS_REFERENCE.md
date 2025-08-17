@@ -37,12 +37,92 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh Haafidh ibn Ahmed 'Alee al-Hakamee | `haafidh-ibn-ahmed-alee-al-hakamee.html` | Placeholder |
 | Shaykh 'Abdur-Rahmaan bin Naasir as-Sa'dee | `abdur-rahmaan-bin-naasir-as-sadee.html` | Placeholder |
 
+## Living Scholars (47 scholars)
+
+| Scholar Name | Filename | Status |
+|--------------|----------|---------|
+| Shaykh Asʿad az-Za'tarī | `asad-az-zatari.html` | Placeholder |
+| Shaykh Bandar al-Khaybarī | `bandar-al-khaybari.html` | Placeholder |
+| Shaykh Fawāz al-Madkhalī | `fawaz-al-madkhali.html` | Placeholder |
+| Shaykh Fuʾād az-Zintānī | `fuad-az-zintani.html` | Placeholder |
+| Shaykh Khālid ad-Dhafīrī | `khalid-ad-dhafiri.html` | Placeholder |
+| Shaykh Muḥammad Ghālib al-'Umarī | `muhammad-ghalib-al-umari.html` | Placeholder |
+| Shaykh ʿAbd al-Muḥsin al-ʿAbbād | `abd-al-muhsin-al-abbad.html` | Placeholder |
+| Shaykh ʿAbd al-ʿAzīz ibn ʿAbdullāh Āl ash-Shaykh | `abd-al-aziz-ibn-abdullah-al-ash-shaykh.html` | Placeholder |
+| Shaykh ʿAbd al-Ghanī 'Awsāt | `abd-al-ghani-awsat.html` | Placeholder |
+| Shaykh ʿAbdullāh al-Bukhārī | `abdullah-al-bukhari.html` | Placeholder |
+| Shaykh ʿAbdullāh ad-Dhafīrī | `abdullah-ad-dhafiri.html` | Placeholder |
+| Shaykh Aḥmad az-zahrānī | `ahmad-az-zahrani.html` | Placeholder |
+| Shaykh ʿAlī bin Ḥusain al-Ḥudhaifī | `ali-bin-husain-al-hudhaifi.html` | Placeholder |
+| Shaykh ʿArafāt al-Muḥammadī | `arafat-al-muhammadi.html` | Placeholder |
+| Shaykh ʿUbayd ibn ʿAbdullāh al-Jābirī | `ubayd-ibn-abdullah-al-jabiri.html` | Placeholder |
+| Shaykh Munīr ibn Saʿīd as-Saʿdī | `munir-ibn-said-as-sadi.html` | Placeholder |
+| Shaykh Muṣṭafá Mubram | `mustaf-mubram.html` | Placeholder |
+| Shaykh Nizār Hāshim | `nizar-hashim.html` | Placeholder |
+| Shaykh Rāʾid al-Mahdāwī | `raid-al-mahdawi.html` | Placeholder |
+| Shaykh Ṣalāḥ Kantūsh | `salah-kantush.html` | Placeholder |
+| Shaykh Sālim Bāmiḥriz | `salim-bamihriz.html` | Placeholder |
+| Shaykh Ṣāliḥ ibn Fawzān al-Fawzān | `salih-ibn-fawzan-al-fawzan.html` | Placeholder |
+| Shaykh Ṣāliḥ Āl ash-Shaykh | `salih-al-ash-shaykh.html` | Placeholder |
+| Shaykh Yaḥyá an-Nahārī | `yahy-an-nahari.html` | Placeholder |
+| Shaykh Zakariyyā ibn Shu'ayb al-'Adanī | `zakariyya-ibn-shuayb-al-adani.html` | Placeholder |
+| ʿAbbās Abū Yaḥyá | `abbas-abu-yahy.html` | Placeholder |
+| ʿAbd al-Ḥakīm Mitchell | `abd-al-hakim-mitchell.html` | Placeholder |
+| ʿAbdulilāh Lahmāmī | `abdulilah-lahmami.html` | Placeholder |
+| Abū Idrīs Muḥammad Khān | `abu-idris-muhammad-khan.html` | Placeholder |
+| Abū Isḥāq Nadīm | `abu-ishaq-nadim.html` | Placeholder |
+| Abū Khadījah ʿAbd al-Wāḥīd | `abu-khadijah-abd-al-wahid.html` | Placeholder |
+| Abū Muḥammad al-Maghribī | `abu-muhammad-al-maghribi.html` | Placeholder |
+| Abū al-Ḥasan Mālik Ādam | `abu-al-hasan-malik-adam.html` | Placeholder |
+| Abū Ādam Jamīl Finch | `abu-adam-jamil-finch.html` | Placeholder |
+| Abū ʿIyāḍ Amjad Rafīq | `abu-iyad-amjad-rafiq.html` | Placeholder |
+| Abū Ḥafsa Kāshiff Khān | `abu-hafsa-kashiff-khan.html` | Placeholder |
+| Abū Ḥakīm Bilāl Davis | `abu-hakim-bilal-davis.html` | Placeholder |
+| Abū Ḥumaid Sālim | `abu-humaid-salim.html` | Placeholder |
+| Abū Ṭalḥah Ṭāhir | `abu-talhah-tahir.html` | Placeholder |
+| Aḥmad Fatḥī | `ahmad-fathi.html` | Placeholder |
+| Anwar Wright | `anwar-wright.html` | Placeholder |
+| Ḥamzah ʿAbd ar-Razzāq | `hamzah-abd-ar-razzaq.html` | Placeholder |
+| Ḥasan al-Ṣumālī | `hasan-al-sumali.html` | Placeholder |
+| Muṣṭafá George | `mustaf-george.html` | Placeholder |
+| Rāḥa Batts | `raha-batts.html` | Placeholder |
+| Rashīd Barbee | `rashid-barbee.html` | Placeholder |
+| Uwais aṭ-Ṭawīl | `uwais-at-tawil.html` | Placeholder |
+
+## Additional 1400-1500 AH Century Scholars (21 scholars)
+
+| Scholar Name | Filename | Status |
+|--------------|----------|---------|
+| Shaykh ʿAbdullāh bin Ḥumaid (d. 1402H) | `abdullah-bin-humaid.html` | Placeholder |
+| Shaykh ʿUmar bin Muḥammad al-Fallātah (d. 1419H) | `umar-bin-muhammad-al-fallatah.html` | Placeholder |
+| Shaykh ʿAbdullāh Bassām (d. 1423H) | `abdullah-bassam.html` | Placeholder |
+| Abū ʿUways (d. 1425H) | `abu-uways.html` | Placeholder |
+| Shaykh ʿAbd as-Salām Burjiss (d. 1425H) | `abd-as-salam-burjiss.html` | Placeholder |
+| Shaykh Ṣafī ar-Raḥmān al-Mubārakfurī (d. 1427H) | `safi-ar-rahman-al-mubarakfuri.html` | Placeholder |
+| Shaykh Aḥmad ibn Yaḥyá al-Najmī (d. 1429H) | `ahmad-ibn-yahy-al-najmi.html` | Placeholder |
+| Dr. Ṣāliḥ aṣ-Ṣāliḥ (d. 1429H) | `salih-as-salih.html` | Placeholder |
+| Shaykh Muḥammad ibn ʿAbd al-Wahhāb al-Banná (d. 1430H) | `muhammad-ibn-abd-al-wahhab-al-bann.html` | Placeholder |
+| Shaykh ʿAbdullāh Al-Ghudayān (d. 1431H) | `abdullah-al-ghudayan.html` | Placeholder |
+| Abū Ṭalḥah Dāwūd Burbank (d. 1432H) | `abu-talhah-dawud-burbank.html` | Placeholder |
+| Shaykh ʿAbdullāh ʿAqīl (d. 1433H) | `abdullah-aqil.html` | Placeholder |
+| Shaykh Muḥammad ibn ʿAbd al-Wahhāb al-Waṣṣābī (d. 1436H) | `muhammad-ibn-abd-al-wahhab-al-wassabi.html` | Placeholder |
+| Shaykh Zayd Al-Madkhalī (d. 1436H) | `zayd-al-madkhali.html` | Placeholder |
+| Abū ʿUmar Farūq (d. 1438H) | `abu-umar-faruq.html` | Placeholder |
+| Shaykh Yāsīn al-ʿAdanī (d. 1439H) | `yasin-al-adani.html` | Placeholder |
+| Shaykh Ḥasan ibn ʿAbd al-Wahhāb al-Banná (d. 1442H) | `hasan-ibn-abd-al-wahhab-al-bann.html` | Placeholder |
+| Shaykh Muḥammad bin ʿĀlī bin Ādam al-Ithyūbī (d. 1442H) | `muhammad-bin-ali-bin-adam-al-ithyubi.html` | Placeholder |
+| Shaykh Ṣāliḥ al-Luḥaydān (d. 1443H) | `salih-al-luhaydan.html` | Placeholder |
+| Shaykh ʿAlī al-Waṣīfī (d. 1444H) | `ali-al-wasifi.html` | Placeholder |
+| Shaykh ʿAlī Nāṣir al-Faqīhī (d. 1446H) | `ali-nasir-al-faqihi.html` | Placeholder |
+
 ## Notes
 
-- **Total Scholars**: 25
-- **Biography Pages Created**: 25
+- **Total Scholars**: 93
+- **Biography Pages Created**: 93
 - **Sample Content**: 1 (Shaykh Ibn Baaz)
-- **Placeholder Content**: 24
+- **Placeholder Content**: 92
+- **Living Scholars**: 47
+- **Deceased Scholars**: 46
 
 ## Placeholder Content Structure
 

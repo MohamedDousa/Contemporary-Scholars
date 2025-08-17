@@ -213,6 +213,18 @@ p {
   font-weight: var(--font-weight-medium);
 }
 
+/* Living Scholars Indicator */
+.living-indicator {
+  background-color: var(--color-success);
+  color: white;
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Living Scholars Section Styling */
+.living-scholars .century-title {
+  color: var(--color-success);
+}
+
 /* Expand/Collapse Indicator */
 .biography-summary::after {
   content: '▼';
