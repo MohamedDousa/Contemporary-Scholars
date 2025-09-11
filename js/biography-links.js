@@ -35,15 +35,26 @@ class BiographyLinks {
      * Setup clickable links for all scholar names
      */
     setupScholarLinks() {
-        const scholarNames = document.querySelectorAll('.biography-name');
+        // Only create links from English names to avoid Arabic slug issues
+        const scholarNames = document.querySelectorAll('.biography-name.lang-en, .biography-name:not(.lang-ar)');
         
         scholarNames.forEach(nameElement => {
             const scholarName = nameElement.textContent.trim();
             const slug = this.createSlug(scholarName);
             const biographyUrl = `biographies/${slug}.html`;
             
-            // Wrap the text content in a link
+            // Find the corresponding Arabic name element if it exists
+            const card = nameElement.closest('.biography-card');
+            const arabicNameElement = card?.querySelector('.biography-name.lang-ar');
+            
+            // Wrap the English text content in a link
             nameElement.innerHTML = `<a href="${biographyUrl}" class="scholar-name-link" onclick="event.stopPropagation()">${scholarName}</a>`;
+            
+            // Also wrap the Arabic name with the same link if it exists
+            if (arabicNameElement) {
+                const arabicName = arabicNameElement.textContent.trim();
+                arabicNameElement.innerHTML = `<a href="${biographyUrl}" class="scholar-name-link" onclick="event.stopPropagation()">${arabicName}</a>`;
+            }
         });
     }
     

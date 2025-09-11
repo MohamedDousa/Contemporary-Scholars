@@ -508,3 +508,152 @@ p {
     scroll-behavior: auto;
   }
 }
+
+/* Language Toggle Component */
+.language-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin: var(--space-lg) 0;
+  padding: 0 var(--space-lg);
+}
+
+.language-switch {
+  position: relative;
+  display: inline-flex;
+  background: var(--toggle-bg);
+  border-radius: var(--toggle-switch-radius);
+  padding: 4px;
+  border: 1px solid var(--toggle-border);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.language-option {
+  padding: var(--toggle-padding);
+  border-radius: var(--toggle-border-radius);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+  color: var(--toggle-text);
+  min-width: 70px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.language-option:hover:not(.active) {
+  background: var(--toggle-hover);
+  transform: translateY(-1px);
+}
+
+.language-option.active {
+  background: var(--toggle-active);
+  color: var(--color-background);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.language-option:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.language-option:active {
+  transform: translateY(0);
+}
+
+/* Arabic Text Styling */
+.content-arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: var(--text-align-start);
+  line-height: var(--line-height-relaxed);
+}
+
+.content-english {
+  direction: ltr;
+  text-align: var(--text-align-start);
+  font-family: var(--font-family-primary);
+}
+
+/* Language Content Management */
+.lang-content {
+  display: block;
+  transition: opacity var(--transition-normal);
+}
+
+.lang-content.hidden {
+  display: none;
+}
+
+/* Arabic-specific adjustments for better readability */
+.content-arabic h1,
+.content-arabic h2,
+.content-arabic h3 {
+  font-family: var(--font-arabic);
+  font-weight: var(--font-weight-bold);
+}
+
+.content-arabic p {
+  font-family: var(--font-arabic);
+  line-height: var(--line-height-relaxed);
+}
+
+/* RTL layout adjustments */
+[dir="rtl"] .biography-summary {
+  text-align: right;
+}
+
+[dir="rtl"] .biography-year {
+  left: var(--space-lg);
+  right: auto;
+}
+
+[dir="rtl"] .biography-tags {
+  direction: rtl;
+}
+
+[dir="rtl"] .search-container {
+  direction: rtl;
+}
+
+[dir="rtl"] .clear-search-btn {
+  left: var(--space-sm);
+  right: auto;
+}
+
+/* Language toggle responsive design */
+@media (max-width: 768px) {
+  .language-toggle {
+    margin: var(--space-md) 0;
+    padding: 0 var(--space-md);
+  }
+  
+  .language-switch {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .language-option {
+    flex: 1;
+    min-width: auto;
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Print styles for language content */
+@media print {
+  .language-toggle {
+    display: none;
+  }
+  
+  .lang-content.hidden {
+    display: none !important;
+  }
+}

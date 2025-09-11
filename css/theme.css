@@ -79,6 +79,23 @@
   --transition-fast: 150ms ease-in-out;
   --transition-normal: 250ms ease-in-out;
   --transition-slow: 350ms ease-in-out;
+  
+  /* Language Toggle Variables */
+  --toggle-bg: #e5e7eb;
+  --toggle-active: var(--color-primary);
+  --toggle-text: #374151;
+  --toggle-border: #d1d5db;
+  --toggle-hover: rgba(0, 0, 0, 0.05);
+  
+  /* Arabic Text Support */
+  --font-arabic: 'Amiri', 'Noto Sans Arabic', 'Times New Roman', serif;
+  --text-align-start: left;
+  --text-align-end: right;
+  
+  /* Language Toggle Spacing */
+  --toggle-padding: 8px 16px;
+  --toggle-border-radius: 20px;
+  --toggle-switch-radius: 25px;
 }
 
 /* Dark mode support (optional for future) */
@@ -99,5 +116,17 @@
     --color-border-light: #333333;
     
     --color-hover: #2c2c2c;
+    
+    /* Language Toggle Dark Mode */
+    --toggle-bg: #374151;
+    --toggle-text: #d1d5db;
+    --toggle-border: #4b5563;
+    --toggle-hover: rgba(255, 255, 255, 0.05);
   }
+}
+
+/* RTL Support for Arabic */
+[dir="rtl"] {
+  --text-align-start: right;
+  --text-align-end: left;
 }

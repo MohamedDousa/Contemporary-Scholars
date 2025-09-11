@@ -16,7 +16,6 @@ const deceasedScholars = [
     { name: "Shaykh ʿAbdullāh ʿAqīl", year: "1433H" },
     { name: "Shaykh Muḥammad ibn ʿAbd al-Wahhāb al-Waṣṣābī", year: "1436H" },
     { name: "Shaykh Zayd Al-Madkhalī", year: "1436H" },
-    { name: "Abū ʿUmar Farūq", year: "1438H" },
     { name: "Shaykh Yāsīn al-ʿAdanī", year: "1439H" },
     { name: "Shaykh Ḥasan ibn ʿAbd al-Wahhāb al-Banná", year: "1442H" },
     { name: "Shaykh Muḥammad bin ʿĀlī bin Ādam al-Ithyūbī", year: "1442H" },

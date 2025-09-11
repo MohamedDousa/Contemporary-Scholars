@@ -388,3 +388,82 @@
     display: none;
   }
 }
+
+/* Language Toggle for Biography Pages */
+.biography-page .language-toggle {
+  margin: var(--space-xl) 0 var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-border-light);
+  padding-bottom: var(--space-lg);
+}
+
+/* Arabic content adjustments for biography pages */
+.biography-page .content-arabic .scholar-name {
+  font-family: var(--font-arabic);
+  font-weight: var(--font-weight-bold);
+  text-align: right;
+}
+
+.biography-page .content-arabic .scholar-subtitle {
+  font-family: var(--font-arabic);
+  text-align: right;
+}
+
+.biography-page .content-arabic .biography-section h2 {
+  font-family: var(--font-arabic);
+  font-weight: var(--font-weight-bold);
+  text-align: right;
+}
+
+.biography-page .content-arabic .biography-section h3 {
+  font-family: var(--font-arabic);
+  font-weight: var(--font-weight-semibold);
+  text-align: right;
+}
+
+/* RTL adjustments for biography page layout */
+[dir="rtl"] .biography-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .breadcrumb {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .breadcrumb-separator {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .back-link {
+  direction: rtl;
+}
+
+[dir="rtl"] .back-link::before {
+  content: "←";
+  margin-right: 0;
+  margin-left: var(--space-sm);
+}
+
+[dir="rtl"] .facts-list {
+  text-align: right;
+}
+
+[dir="rtl"] .facts-list dt {
+  text-align: right;
+}
+
+[dir="rtl"] .facts-list dd {
+  text-align: right;
+}
+
+/* Mobile adjustments for bilingual content */
+@media (max-width: 768px) {
+  .biography-page .language-toggle {
+    margin: var(--space-lg) 0;
+    padding-bottom: var(--space-md);
+  }
+  
+  .biography-page .content-arabic .scholar-name {
+    font-size: var(--font-size-2xl);
+  }
+}

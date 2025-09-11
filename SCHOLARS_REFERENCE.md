@@ -7,10 +7,8 @@ This file contains a reference list of all scholars and their corresponding biog
 | Scholar Name | Filename | Status |
 |--------------|----------|---------|
 | Shaykh Rabee bin Hadee Al Madkhali | `rabee-bin-hadee-al-madkhali.html` | Placeholder |
-| Shaykh Zayd bin Muhammad bin Haadee al-Madkhale | `zayd-bin-muhammad-bin-haadee-al-madkhale.html` | Placeholder |
 | Shaykh 'Abdullah al-Ghudayyaan | `abdullah-al-ghudayyaan.html` | Placeholder |
 | Shaykh Muhammad bin 'Abdul-Wahhaab al-Banna | `muhammad-bin-abdul-wahhaab-al-banna.html` | Placeholder |
-| Shaykh Ahmad bin Yahyaa an-Najmee | `ahmad-bin-yahyaa-an-najmee.html` | Placeholder |
 | Shaykh Bakr Abu Zayd | `bakr-abu-zayd.html` | Placeholder |
 | Shaykh Muqbil bin Haadee al-Waadi'ee | `muqbil-bin-haadee-al-waadiee.html` | Placeholder |
 | Shaykh Muhammad bin Saalih al-'Uthaymeen | `muhammad-bin-saalih-al-uthaymeen.html` | Placeholder |
@@ -22,7 +20,6 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh 'Abdur-Razzaaq al-'Afeefee | `abdur-razzaaq-al-afeefee.html` | Placeholder |
 | Shaykh Hamood bin 'Abdullah at-Tuwayjiree | `hamood-bin-abdullah-at-tuwayjiree.html` | Placeholder |
 | Shaykh Muhammad Taqee ud-Deen al-Hilali | `muhammad-taqee-ud-deen-al-hilali.html` | Placeholder |
-| Shaykh Ehsaan Elaahi Zaheer | `ehsaan-elaahi-zaheer.html` | Placeholder |
 | Shaykh Muhammad Khaleel Harras | `muhammad-khaleel-harras.html` | Placeholder |
 | Shaykh Muhammad al-Ameen ash-Shanqeetee | `muhammad-al-ameen-ash-shanqeetee.html` | Placeholder |
 
@@ -41,10 +38,8 @@ This file contains a reference list of all scholars and their corresponding biog
 
 | Scholar Name | Filename | Status |
 |--------------|----------|---------|
-| Shaykh Asʿad az-Za'tarī | `asad-az-zatari.html` | Placeholder |
 | Shaykh Bandar al-Khaybarī | `bandar-al-khaybari.html` | Placeholder |
 | Shaykh Fawāz al-Madkhalī | `fawaz-al-madkhali.html` | Placeholder |
-| Shaykh Fuʾād az-Zintānī | `fuad-az-zintani.html` | Placeholder |
 | Shaykh Khālid ad-Dhafīrī | `khalid-ad-dhafiri.html` | Placeholder |
 | Shaykh Muḥammad Ghālib al-'Umarī | `muhammad-ghalib-al-umari.html` | Placeholder |
 | Shaykh ʿAbd al-Muḥsin al-ʿAbbād | `abd-al-muhsin-al-abbad.html` | Placeholder |
@@ -53,7 +48,6 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh ʿAbdullāh al-Bukhārī | `abdullah-al-bukhari.html` | Placeholder |
 | Shaykh ʿAbdullāh ad-Dhafīrī | `abdullah-ad-dhafiri.html` | Placeholder |
 | Shaykh Aḥmad az-zahrānī | `ahmad-az-zahrani.html` | Placeholder |
-| Shaykh ʿAlī bin Ḥusain al-Ḥudhaifī | `ali-bin-husain-al-hudhaifi.html` | Placeholder |
 | Shaykh ʿArafāt al-Muḥammadī | `arafat-al-muhammadi.html` | Placeholder |
 | Shaykh ʿUbayd ibn ʿAbdullāh al-Jābirī | `ubayd-ibn-abdullah-al-jabiri.html` | Placeholder |
 | Shaykh Munīr ibn Saʿīd as-Saʿdī | `munir-ibn-said-as-sadi.html` | Placeholder |
@@ -65,24 +59,16 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh Ṣāliḥ ibn Fawzān al-Fawzān | `salih-ibn-fawzan-al-fawzan.html` | Placeholder |
 | Shaykh Ṣāliḥ Āl ash-Shaykh | `salih-al-ash-shaykh.html` | Placeholder |
 | Shaykh Yaḥyá an-Nahārī | `yahy-an-nahari.html` | Placeholder |
-| Shaykh Zakariyyā ibn Shu'ayb al-'Adanī | `zakariyya-ibn-shuayb-al-adani.html` | Placeholder |
-| ʿAbbās Abū Yaḥyá | `abbas-abu-yahy.html` | Placeholder |
 | ʿAbd al-Ḥakīm Mitchell | `abd-al-hakim-mitchell.html` | Placeholder |
 | ʿAbdulilāh Lahmāmī | `abdulilah-lahmami.html` | Placeholder |
 | Abū Idrīs Muḥammad Khān | `abu-idris-muhammad-khan.html` | Placeholder |
 | Abū Isḥāq Nadīm | `abu-ishaq-nadim.html` | Placeholder |
 | Abū Khadījah ʿAbd al-Wāḥīd | `abu-khadijah-abd-al-wahid.html` | Placeholder |
-| Abū Muḥammad al-Maghribī | `abu-muhammad-al-maghribi.html` | Placeholder |
 | Abū al-Ḥasan Mālik Ādam | `abu-al-hasan-malik-adam.html` | Placeholder |
-| Abū Ādam Jamīl Finch | `abu-adam-jamil-finch.html` | Placeholder |
 | Abū ʿIyāḍ Amjad Rafīq | `abu-iyad-amjad-rafiq.html` | Placeholder |
 | Abū Ḥafsa Kāshiff Khān | `abu-hafsa-kashiff-khan.html` | Placeholder |
 | Abū Ḥakīm Bilāl Davis | `abu-hakim-bilal-davis.html` | Placeholder |
-| Abū Ḥumaid Sālim | `abu-humaid-salim.html` | Placeholder |
-| Abū Ṭalḥah Ṭāhir | `abu-talhah-tahir.html` | Placeholder |
-| Aḥmad Fatḥī | `ahmad-fathi.html` | Placeholder |
 | Anwar Wright | `anwar-wright.html` | Placeholder |
-| Ḥamzah ʿAbd ar-Razzāq | `hamzah-abd-ar-razzaq.html` | Placeholder |
 | Ḥasan al-Ṣumālī | `hasan-al-sumali.html` | Placeholder |
 | Muṣṭafá George | `mustaf-george.html` | Placeholder |
 | Rāḥa Batts | `raha-batts.html` | Placeholder |
@@ -107,8 +93,6 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh ʿAbdullāh ʿAqīl (d. 1433H) | `abdullah-aqil.html` | Placeholder |
 | Shaykh Muḥammad ibn ʿAbd al-Wahhāb al-Waṣṣābī (d. 1436H) | `muhammad-ibn-abd-al-wahhab-al-wassabi.html` | Placeholder |
 | Shaykh Zayd Al-Madkhalī (d. 1436H) | `zayd-al-madkhali.html` | Placeholder |
-| Abū ʿUmar Farūq (d. 1438H) | `abu-umar-faruq.html` | Placeholder |
-| Shaykh Yāsīn al-ʿAdanī (d. 1439H) | `yasin-al-adani.html` | Placeholder |
 | Shaykh Ḥasan ibn ʿAbd al-Wahhāb al-Banná (d. 1442H) | `hasan-ibn-abd-al-wahhab-al-bann.html` | Placeholder |
 | Shaykh Muḥammad bin ʿĀlī bin Ādam al-Ithyūbī (d. 1442H) | `muhammad-bin-ali-bin-adam-al-ithyubi.html` | Placeholder |
 | Shaykh Ṣāliḥ al-Luḥaydān (d. 1443H) | `salih-al-luhaydan.html` | Placeholder |

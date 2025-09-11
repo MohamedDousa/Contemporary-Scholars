@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A website showcasing contemporary scholars who have passed away, organized by Islamic Hijri centuries with detailed biographies.">
-    <title>Contemporary scholars</title>
+    <meta name="description" content="A bilingual website showcasing contemporary Islamic scholars who have passed away, organized by Islamic Hijri centuries with detailed biographies. موقع ثنائي اللغة يعرض العلماء الإسلاميين المعاصرين الذين توفوا، مرتب حسب القرون الهجرية الإسلامية مع سير ذاتية مفصلة.">
+    <title>Contemporary Scholars - العلماء المعاصرون</title>
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Favicon (optional - can be added later) -->
+    <!-- Arabic Font Support -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
@@ -21,15 +24,35 @@
     <!-- Header -->
     <header class="site-header" role="banner">
         <div class="container">
-            <h1 class="site-title">Contemporary scholars</h1>
-            <p class="site-description">
-                Click on any name to read their story and legacy.
-            </p>
+            <!-- English Header -->
+            <div class="lang-content lang-en">
+                <h1 class="site-title">Contemporary Scholars</h1>
+                <p class="site-description">
+                    Click on any name to read their story and legacy.
+                </p>
+            </div>
+            
+            <!-- Arabic Header -->
+            <div class="lang-content lang-ar content-arabic">
+                <h1 class="site-title">العلماء المعاصرون</h1>
+                <p class="site-description">
+                    انقر على أي اسم لقراءة قصته وإرثه.
+                </p>
+            </div>
             
             <!-- Search Section -->
             <div class="search-section">
                 <div class="search-container">
-                    <label for="scholar-search" class="search-label">Search Scholars:</label>
+                    <!-- English Search -->
+                    <div class="lang-content lang-en">
+                        <label for="scholar-search" class="search-label">Search Scholars:</label>
+                    </div>
+                    
+                    <!-- Arabic Search -->
+                    <div class="lang-content lang-ar content-arabic">
+                        <label for="scholar-search" class="search-label">البحث في العلماء:</label>
+                    </div>
+                    
                     <input 
                         type="text" 
                         id="scholar-search" 
@@ -41,9 +64,19 @@
                         ✕
                     </button>
                 </div>
+                
                 <div id="search-help" class="search-help">
-                    <p>Search examples: "Ibn Baaz", "1420H", "1400-1500", or "Uthaymeen"</p>
+                    <!-- English Search Help -->
+                    <div class="lang-content lang-en">
+                        <p>Search examples: "Ibn Baaz", "1420H", "1400-1500", or "Uthaymeen"</p>
+                    </div>
+                    
+                    <!-- Arabic Search Help -->
+                    <div class="lang-content lang-ar content-arabic">
+                        <p>أمثلة البحث: "ابن باز"، "1420هـ"، "1400-1500"، أو "العثيمين"</p>
+                    </div>
                 </div>
+                
                 <div id="search-results" class="search-results" role="status" aria-live="polite">
                     <!-- Search results summary will appear here -->
                 </div>
@@ -56,63 +89,55 @@
         <div class="container">
             <!-- 1400s AH Century -->
             <section class="century-section" aria-labelledby="century-1400s">
-                <h2 id="century-1400s" class="century-title">1400-1500 AH</h2>
+                <!-- English Century Title -->
+                <div class="lang-content lang-en">
+                    <h2 id="century-1400s" class="century-title">1400-1500 AH</h2>
+                </div>
+                
+                <!-- Arabic Century Title -->
+                <div class="lang-content lang-ar content-arabic">
+                    <h2 id="century-1400s-ar" class="century-title">1400-1500 هـ</h2>
+                </div>
                 <div class="biography-grid" role="list">
                     <!-- Shaykh Rabee bin Hadee Al Madkhali -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Rabee bin Hadee Al Madkhali</h3>
-                                <p class="biography-short">Islamic Scholar</p>
+                                <!-- English Name -->
+                                <h3 class="biography-name lang-content lang-en">Shaykh Rabee bin Hadee Al Madkhali</h3>
+                                <!-- Arabic Name -->
+                                <h3 class="biography-name lang-content lang-ar content-arabic">الشيخ ربيع بن هادي المدخلي</h3>
+                                
+                                <!-- English Description -->
+                                <p class="biography-short lang-content lang-en">Islamic Scholar, Hadith Specialist, and Author</p>
+                                <!-- Arabic Description -->
+                                <p class="biography-short lang-content lang-ar content-arabic">عالم إسلامي ومحدث ومؤلف</p>
+                                
                                 <span class="biography-year" aria-label="Year of death">1447H</span>
                             </summary>
                             <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
+                                <!-- English Content -->
+                                <div class="lang-content lang-en">
+                                    <p class="biography-full">
+                                        Distinguished Islamic scholar (1351-1447H) from Saudi Arabia, known for his expertise in hadith sciences and his defense of Salafi methodology. He was a student of prominent scholars including Ibn Baz, al-Albani, and al-Shanqiti.
+                                    </p>
+                                    <div class="biography-tags">
+                                        <span class="biography-tag">Hadith</span>
+                                        <span class="biography-tag">Methodology</span>
+                                        <span class="biography-tag">Author</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Shaykh Zayd bin Muhammad bin Haadee al-Madkhale -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Zayd bin Muhammad bin Haadee al-Madkhale</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1435H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Shaykh 'Abdullah al-Ghudayyaan -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh 'Abdullah al-Ghudayyaan</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1431H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
+                                
+                                <!-- Arabic Content -->
+                                <div class="lang-content lang-ar content-arabic">
+                                    <p class="biography-full">
+                                        عالم إسلامي مميز (1351-1447هـ) من المملكة العربية السعودية، معروف بخبرته في علوم الحديث ودفاعه عن المنهج السلفي. كان من تلاميذ علماء بارزين منهم ابن باز والألباني والشنقيطي.
+                                    </p>
+                                    <div class="biography-tags">
+                                        <span class="biography-tag">الحديث</span>
+                                        <span class="biography-tag">المنهج</span>
+                                        <span class="biography-tag">مؤلف</span>
+                                    </div>
                                 </div>
                             </div>
                         </details>
@@ -137,27 +162,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh Ahmad bin Yahyaa an-Najmee -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Ahmad bin Yahyaa an-Najmee</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1429H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Shaykh Bakr Abu Zayd -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -202,17 +207,41 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Muhammad bin Saalih al-'Uthaymeen</h3>
-                                <p class="biography-short">Islamic Scholar</p>
+                                <!-- English Name -->
+                                <h3 class="biography-name lang-content lang-en">Shaykh Muhammad bin Saalih al-'Uthaymeen</h3>
+                                <!-- Arabic Name -->
+                                <h3 class="biography-name lang-content lang-ar content-arabic">الشيخ محمد بن صالح العثيمين</h3>
+                                
+                                <!-- English Description -->
+                                <p class="biography-short lang-content lang-en">Islamic Scholar, Jurist, and Teacher</p>
+                                <!-- Arabic Description -->
+                                <p class="biography-short lang-content lang-ar content-arabic">عالم إسلامي وفقيه ومدرس</p>
+                                
                                 <span class="biography-year" aria-label="Year of death">1421H</span>
                             </summary>
                             <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
+                                <!-- English Content -->
+                                <div class="lang-content lang-en">
+                                    <p class="biography-full">
+                                        Renowned Islamic scholar (1347-1421H) from Saudi Arabia, known for his expertise in Islamic jurisprudence, Quranic exegesis, and clear teaching methodology. He was a student of Shaykh Abd al-Rahman al-Sa'di and Shaykh Ibn Baz.
+                                    </p>
+                                    <div class="biography-tags">
+                                        <span class="biography-tag">Fiqh</span>
+                                        <span class="biography-tag">Tafsir</span>
+                                        <span class="biography-tag">Teaching</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Arabic Content -->
+                                <div class="lang-content lang-ar content-arabic">
+                                    <p class="biography-full">
+                                        عالم إسلامي مشهور (1347-1421هـ) من المملكة العربية السعودية، معروف بخبرته في الفقه الإسلامي وتفسير القرآن ومنهجيته الواضحة في التدريس. كان من تلاميذ الشيخ عبد الرحمن السعدي والشيخ ابن باز.
+                                    </p>
+                                    <div class="biography-tags">
+                                        <span class="biography-tag">الفقه</span>
+                                        <span class="biography-tag">التفسير</span>
+                                        <span class="biography-tag">التدريس</span>
+                                    </div>
                                 </div>
                             </div>
                         </details>
@@ -365,26 +394,6 @@
                                 <h3 class="biography-name">Shaykh Muhammad Taqee ud-Deen al-Hilali</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year" aria-label="Year of death">1408H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Shaykh Ehsaan Elaahi Zaheer -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Ehsaan Elaahi Zaheer</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1407H</span>
                             </summary>
                             <div class="biography-content">
                                 <p class="biography-full">
@@ -717,46 +726,6 @@
                         </details>
                     </article>
                     
-                    <!-- Abū ʿUmar Farūq -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū ʿUmar Farūq</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1438H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Shaykh Yāsīn al-ʿAdanī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Yāsīn al-ʿAdanī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year" aria-label="Year of death">1439H</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
                     <!-- Shaykh Ḥasan ibn ʿAbd al-Wahhāb al-Banná -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -862,28 +831,16 @@
             
             <!-- Living Scholars Section -->
             <section class="century-section living-scholars" aria-labelledby="living-scholars">
-                <h2 id="living-scholars" class="century-title">Living Scholars and Students of Knowledge</h2>
+                <!-- English Living Scholars Title -->
+                <div class="lang-content lang-en">
+                    <h2 id="living-scholars" class="century-title">Living Scholars and Students of Knowledge</h2>
+                </div>
+                
+                <!-- Arabic Living Scholars Title -->
+                <div class="lang-content lang-ar content-arabic">
+                    <h2 id="living-scholars-ar" class="century-title">العلماء الأحياء وطلبة العلم</h2>
+                </div>
                 <div class="biography-grid" role="list">
-                    <!-- Shaykh Asʿad az-Za'tarī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Asʿad az-Za'tarī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
                     <!-- Shaykh Bandar al-Khaybarī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -923,27 +880,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh Fuʾād az-Zintānī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Fuʾād az-Zintānī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Shaykh Khālid ad-Dhafīrī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1024,26 +961,6 @@
                         </details>
                     </article>
                     
-                                        <!-- Shaykh ʿAbd al-Ghanī 'Awsāt -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh ʿAbd al-Ghanī 'Awsāt</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
                     <!-- Shaykh ʿAbdullāh al-Bukhārī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1103,27 +1020,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh ʿAlī bin Ḥusain al-Ḥudhaifī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh ʿAlī bin Ḥusain al-Ḥudhaifī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Shaykh ʿArafāt al-Muḥammadī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1143,27 +1040,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh ʿUbayd ibn ʿAbdullāh al-Jābirī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh ʿUbayd ibn ʿAbdullāh al-Jābirī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Shaykh Munīr ibn Saʿīd as-Saʿdī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1223,27 +1100,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh Rāʾid al-Mahdāwī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Rāʾid al-Mahdāwī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Shaykh Ṣalāḥ Kantūsh -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1343,47 +1200,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Shaykh Zakariyyā ibn Shu'ayb al-'Adanī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Shaykh Zakariyyā ibn Shu'ayb al-'Adanī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- ʿAbbās Abū Yaḥyá -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">ʿAbbās Abū Yaḥyá</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- ʿAbd al-Ḥakīm Mitchell -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1404,11 +1221,11 @@
                         </details>
                     </article>
                     
-                    <!-- ʿAbdulilāh Lahmāmī -->
+                    <!-- ShaykhAbdulilāh Lahmāmī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">ʿAbdulilāh Lahmāmī</h3>
+                                <h3 class="biography-name">ShaykhAbdulilāh Lahmāmī</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1428,7 +1245,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Idrīs Muḥammad Khān</h3>
+                                <h3 class="biography-name">Shaykh Abū Idrīs Muḥammad Khān</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1448,7 +1265,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Isḥāq Nadīm</h3>
+                                <h3 class="biography-name">Shaykh Abū Isḥāq Nadīm</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1468,7 +1285,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Khadījah ʿAbd al-Wāḥīd</h3>
+                                <h3 class="biography-name">Shaykh Abū Khadījah ʿAbd al-Wāḥīd</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1483,32 +1300,12 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Abū Muḥammad al-Maghribī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Muḥammad al-Maghribī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Abū al-Ḥasan Mālik Ādam -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū al-Ḥasan Mālik Ādam</h3>
+                                <h3 class="biography-name">Shaykh Abū al-Ḥasan Mālik Ādam</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1523,32 +1320,12 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Abū Ādam Jamīl Finch -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Ādam Jamīl Finch</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Abū ʿIyāḍ Amjad Rafīq -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū ʿIyāḍ Amjad Rafīq</h3>
+                                <h3 class="biography-name">Shaykh Abū ʿIyāḍ Amjad Rafīq</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1568,7 +1345,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Ḥafsa Kāshiff Khān</h3>
+                                <h3 class="biography-name">Shaykh Abū Ḥafsa Kāshiff Khān</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1588,7 +1365,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Ḥakīm Bilāl Davis</h3>
+                                <h3 class="biography-name">Shaykh Abū Ḥakīm Bilāl Davis</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1603,67 +1380,7 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Abū Ḥumaid Sālim -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Ḥumaid Sālim</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Abū Ṭalḥah Ṭāhir -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Abū Ṭalḥah Ṭāhir</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
-                    <!-- Aḥmad Fatḥī -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Aḥmad Fatḥī</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Anwar Wright -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
@@ -1683,32 +1400,12 @@
                             </div>
                         </details>
                     </article>
-                    
-                    <!-- Ḥamzah ʿAbd ar-Razzāq -->
-                    <article class="biography-card" role="listitem">
-                        <details class="biography-details">
-                            <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Ḥamzah ʿAbd ar-Razzāq</h3>
-                                <p class="biography-short">Islamic Scholar</p>
-                                <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
-                            </summary>
-                            <div class="biography-content">
-                                <p class="biography-full">
-                                    Biography details to be added later.
-                                </p>
-                                <div class="biography-tags">
-                                    <span class="biography-tag">Islamic Studies</span>
-                                    <span class="biography-tag">Scholar</span>
-                                </div>
-                            </div>
-                        </details>
-                    </article>
-                    
+
                     <!-- Ḥasan al-Ṣumālī -->
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Ḥasan al-Ṣumālī</h3>
+                                <h3 class="biography-name">Shaykh Ḥasan al-Ṣumālī</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1788,7 +1485,7 @@
                     <article class="biography-card" role="listitem">
                         <details class="biography-details">
                             <summary class="biography-summary" role="button" aria-expanded="false">
-                                <h3 class="biography-name">Uwais aṭ-Ṭawīl</h3>
+                                <h3 class="biography-name">Shaykh Uwais aṭ-Ṭawīl</h3>
                                 <p class="biography-short">Islamic Scholar</p>
                                 <span class="biography-year living-indicator" aria-label="Living scholar">Living</span>
                             </summary>
@@ -1809,7 +1506,15 @@
             
             <!-- 1300s AH Century -->
             <section class="century-section" aria-labelledby="century-1300s">
-                <h2 id="century-1300s" class="century-title">1300-1400 AH</h2>
+                <!-- English Century Title -->
+                <div class="lang-content lang-en">
+                    <h2 id="century-1300s" class="century-title">1300-1400 AH</h2>
+                </div>
+                
+                <!-- Arabic Century Title -->
+                <div class="lang-content lang-ar content-arabic">
+                    <h2 id="century-1300s-ar" class="century-title">1300-1400 هـ</h2>
+                </div>
                 <div class="biography-grid" role="list">
                     <!-- Shaykh Muhammad bin Ibraaheem Aal ash-Shaykh -->
                     <article class="biography-card" role="listitem">
@@ -2043,14 +1748,23 @@
     <footer class="site-footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Contemporary Scholars.</p>
+                <!-- English Footer -->
+                <div class="lang-content lang-en">
+                    <p>&copy; 2024 Contemporary Scholars.</p>
+                </div>
+                
+                <!-- Arabic Footer -->
+                <div class="lang-content lang-ar content-arabic">
+                    <p>&copy; 2024 العلماء المعاصرون.</p>
+                </div>
             </div>
         </div>
     </footer>
     
-    <!-- Optional: JavaScript for enhanced functionality -->
-    <script src="js/accordion.js" defer></script>
-    <script src="js/search.js" defer></script>
-    <script src="js/biography-links.js" defer></script>
+    <!-- JavaScript for enhanced functionality -->
+    <script src="js/language-toggle.js?v=1.1" defer></script>
+    <script src="js/accordion.js?v=1.1" defer></script>
+    <script src="js/search.js?v=1.1" defer></script>
+    <script src="js/biography-links.js?v=1.1" defer></script>
 </body>
 </html>
