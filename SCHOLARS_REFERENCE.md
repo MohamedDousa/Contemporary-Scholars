@@ -9,7 +9,6 @@ This file contains a reference list of all scholars and their corresponding biog
 | Shaykh Rabee bin Hadee Al Madkhali | `rabee-bin-hadee-al-madkhali.html` | Placeholder |
 | Shaykh 'Abdullah al-Ghudayyaan | `abdullah-al-ghudayyaan.html` | Placeholder |
 | Shaykh Muhammad bin 'Abdul-Wahhaab al-Banna | `muhammad-bin-abdul-wahhaab-al-banna.html` | Placeholder |
-| Shaykh Bakr Abu Zayd | `bakr-abu-zayd.html` | Placeholder |
 | Shaykh Muqbil bin Haadee al-Waadi'ee | `muqbil-bin-haadee-al-waadiee.html` | Placeholder |
 | Shaykh Muhammad bin Saalih al-'Uthaymeen | `muhammad-bin-saalih-al-uthaymeen.html` | Placeholder |
 | Shaykh Muhammad Naasiruddeen al-Albaanee | `muhammad-naasiruddeen-al-albaanee.html` | Placeholder |
@@ -70,9 +69,6 @@ This file contains a reference list of all scholars and their corresponding biog
 | Abū Ḥakīm Bilāl Davis | `abu-hakim-bilal-davis.html` | Placeholder |
 | Anwar Wright | `anwar-wright.html` | Placeholder |
 | Ḥasan al-Ṣumālī | `hasan-al-sumali.html` | Placeholder |
-| Muṣṭafá George | `mustaf-george.html` | Placeholder |
-| Rāḥa Batts | `raha-batts.html` | Placeholder |
-| Rashīd Barbee | `rashid-barbee.html` | Placeholder |
 | Uwais aṭ-Ṭawīl | `uwais-at-tawil.html` | Placeholder |
 
 ## Additional 1400-1500 AH Century Scholars (21 scholars)

@@ -39,9 +39,6 @@ const allNewScholars = [
     "Abū Ḥakīm Bilāl Davis",
     "Anwar Wright",
     "Ḥasan al-Ṣumālī",
-    "Muṣṭafá George",
-    "Rāḥa Batts",
-    "Rashīd Barbee",
     "Uwais aṭ-Ṭawīl",
     // Deceased scholars
     "Shaykh ʿAbdullāh bin Ḥumaid",
